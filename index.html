@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme = "dark">
+<head>
+    <link rel="icon" href="images/icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <a><img src = "images/usukflagonblack.png" id = "en-us"></a>
+        <a><img src = "images/huflagonblack.png" id = "hu"></a>
+        <a href = "https://github.com/Kotyesz"><img src = "images/whitegithub.png" id = "githubicon"></a><br>
+        <a onclick="themeSwitch()"><img src="images/sun.png" id = "themebutton"></a>
+    </nav>
+    <header>
+        <div class = "topspacer"></div>
+        <div class="title">nameszko<span id="blinker">_</span>
+        </div>
+        
+        <div class="bottomspacer">   
+            <div class = "buttonspotspacer"></div>
+            <div class="buttonlocation">
+                <a href="#aboutme"><button id="aboutbutton">About</button></a>
+                <a href="#projects"><button id="projectsbutton">Projects</button></a>
+                <button id="contactbutton" onclick="contactMenu()">Contact</button>
+            </div>
+        </div>
+    </header>
+    <content>
+        <div class="aboutme">
+            <a href="#aboutme" id="aboutme"><img src="images/brightdownarrow.png" id="downarrow"></a>
+        </div></div>
+    </content>
+    <content>
+        <div class="projects">
+            <a href="#projects" id="projects"><img src="images/brightdownarrow.png" id="downarrow"></a>
+        </div>
+    </content>
+    <footer class="finishup">
+
+    </footer>
+    <footer class="copyR">
+        ©2020-Today
+    </footer>
+
+    <div class="bg-modal">
+        <div class="modal-content">
+            Name:<br>
+            <textarea id="namebox" placeholder="Your Name"></textarea><br>
+            e-mail:<br>
+            <textarea id="emailbox" placeholder="your@emailad.res"></textarea><br>
+            Message:<br>
+            <textarea id="messagebox" placeholder="Your message..."></textarea><br>
+            <button id="sendbutton">Send!</button><button id="exitbutton" onclick="exitContactMenu()">Exit!</button>
+        </div>
+    </div>
+
+</body>
+<script src="scripts/main.js"></script>
+</html>
