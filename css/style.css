@@ -291,6 +291,10 @@ h2 {
   color: var(--color-text);
 }
 
+.projimage {
+  height: 50%;
+}
+
 .finishup {
   height: 7%;
   width: 100%;
