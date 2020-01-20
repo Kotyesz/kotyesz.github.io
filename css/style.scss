@@ -71,7 +71,6 @@ html[data-theme = 'light']{
     color: var(--bg-grey);
     background-color: var(--color-text);
 }
-
 #contactbutton{
     cursor: pointer;
     opacity: 0.7;
@@ -289,7 +288,7 @@ h2{
 }
 
 .projimage{
-    height: 50%;
+    width: 75%;
 }
 
 .finishup{
